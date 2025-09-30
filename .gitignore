@@ -1,0 +1,15 @@
+# Ignore all extensionless files in root (common for executables)
+*
+
+# But allow directories and specific files
+!*/
+!*.asm
+!*.s
+!*.c
+!*.h
+!README*
+!LICENSE*
+!Makefile
+!.gitignore
+!.gitkeep
+
